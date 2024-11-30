@@ -57,3 +57,41 @@ This script calculates the net salary of an employee by factoring in the followi
 
 ---
 
+
+**Prerequisites:**
+
+To run these scripts, you'll need:
+
+1.  **Node.js and npm (Node Package Manager):**
+      - Download and install Node.js from the official website: [https://nodejs.org/](https://www.google.com/url?sa=E&source=gmail&q=https://nodejs.org/)
+      - Verify the installation by running `node -v` and `npm -v` in your terminal.
+
+**Running the Scripts:**
+
+1.  **Clone the Repository:**
+
+    ```bash
+    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    ```
+
+    Replace `your-username` and `your-repo-name` with the actual repository's information.
+
+2.  **Navigate to the Repository Directory:**
+
+    ```bash
+    cd your-repo-name
+    ```
+
+3.  **Run a Specific Script:**
+    To run a script, use the Node.js command-line interface:
+
+    ```bash
+    node studentgrade.js
+    node speeddetector.js
+    node netsalary.js
+    ```
+
+**Author:** Sandra Misigo
+
+**Contact:**
+For any issues or questions, feel free to contact me at [your\_email\_address].
