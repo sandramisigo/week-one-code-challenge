@@ -14,11 +14,11 @@ This script calculates the grade of a student based on their marks.
 
 - **Functionality:**
   - The user is prompted to input the student's marks (between 0 and 100).
-  - If the input is not a valid number, the user is prompted again.
+  - If the input is not a valid number, an alert is displayed telling the user to enter a valid number. The user is then prompted again.
   - Based on the marks entered, the program determines the student's grade and displays it.
 
 - **Grade Mapping:**
-  - **A**: 80 - 100
+  - **A**: 79 - 100
   - **B**: 60 - 79
   - **C**: 50 - 59
   - **D**: 40 - 49
@@ -31,6 +31,7 @@ This script calculates the grade of a student based on their marks.
 This script checks a driver's speed and determines if they are exceeding the speed limit, along with the penalty points they accumulate.
 
 - **Functionality:**
+The script functions as follows;
   - The user provides a speed value.
   - The script compares the input speed with the speed limit (70 km/h).
   - If the speed is within the limit, it logs "OK."
@@ -49,6 +50,7 @@ This script calculates the net salary of an employee by factoring in the followi
 - **Affordable Housing Levy**
 
 - **Functionality:**
+This is how the script functions;
   - The user inputs the basic salary and benefits.
   - The gross salary is calculated by adding the basic salary and benefits.
   - Deductions for PAYE, NHIF, NSSF, SHIF, and the Affordable Housing Levy are calculated.
@@ -58,7 +60,7 @@ This script calculates the net salary of an employee by factoring in the followi
 ---
 
 
-**Prerequisites:**
+## **Prerequisites:**
 
 To run these scripts, you'll need:
 
@@ -71,10 +73,10 @@ To run these scripts, you'll need:
 1.  **Clone the Repository:**
 
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    git clone [https://github.com/sandramisigo/week-one-code-challenge](https://github.com/sandramisigo/week-one-code-challenge)
     ```
 
-    Replace `your-username` and `your-repo-name` with the actual repository's information.
+    
 
 2.  **Navigate to the Repository Directory:**
 
@@ -91,7 +93,8 @@ To run these scripts, you'll need:
     node netsalary.js
     ```
 
-**Author:** Sandra Misigo
+**Author:** 
+Sandra Misigo
 
 **Contact:**
-For any issues or questions, feel free to contact me at [your\_email\_address].
+For any questions or incase you experience challenges, feel free to contact me via [sandra.misigo@student.moringaschool.com]. Good luck!
