@@ -26,7 +26,7 @@ function calculatePAYE(taxableSalary) {
     return tax;
 }
 
-// Function to calculate NHIF deduction based on monthly salary
+// Function to calculate the NHIF deduction based on monthly salary
 function calculateNHIF(salary) {
     if (salary <= 5999) return 150;
     else if (salary <= 7999) return 300;
@@ -47,10 +47,10 @@ function calculateNHIF(salary) {
     else return 1700; // For salary above 100,000
 }
 
-// Function to calculate NSSF deduction based on salary
+// Function to calculate the NSSF deduction based on salary
 function calculateNSSF(salary) {
     let nssf = 0;
-    // Tier I deduction is based on salary up to 7,000
+    // The tier I deduction is based on salary up to 7,000
     if (salary <= 7000) {
         nssf = salary * 0.06;
     } else if (salary <= 36000) {
@@ -69,7 +69,7 @@ function calculateAffordableHousingLevy(salary) {
     return salary * 0.015;
 }
 
-// Main function to calculate the net salary
+// Main function of calculating the net salary
 function calculateNetSalary(basicSalary, benefits) {
     // Step 1: Calculate Gross Salary
     let grossSalary = basicSalary + benefits;
@@ -106,13 +106,13 @@ function calculateNetSalary(basicSalary, benefits) {
     };
 }
 
-// Example usage
-let basicSalary = 45000;  // Example basic salary
-let benefits = 8000;      // Example benefits
+// Example 
+let basicSalary = 45000;  // Example of basic salary
+let benefits = 8000;      // Example of benefits
 
 let salaryDetails = calculateNetSalary(basicSalary, benefits);
 
-// Display the results
+// Displaying the results
 console.log("Gross Salary: Ksh " + salaryDetails.grossSalary);
 console.log("PAYE: Ksh " + salaryDetails.paye);
 console.log("NHIF: Ksh " + salaryDetails.nhif);
